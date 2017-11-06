@@ -88,8 +88,8 @@ WebService::DeathByCaptcha - DeathByCaptcha Recaptcha API
     use WebService::DeathByCaptcha;
 
     my $dbc = WebService::DeathByCaptcha->new(
-        username => ',
-        password => $ENV{DEATHBYCAPTCHA_PASS},
+        username => 'dbc_user',
+        password => 'dbc_pass',
     );
 
     my $dbc_res = $dbc->recaptcha({
