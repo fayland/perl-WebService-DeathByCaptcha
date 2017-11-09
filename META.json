@@ -61,7 +61,7 @@
          "web" : "https://github.com/fayland/perl-WebService-DeathByCaptcha"
       }
    },
-   "version" : "0.01",
+   "version" : "0.02",
    "x_serialization_backend" : "Cpanel::JSON::XS version 3.023"
 }
 
